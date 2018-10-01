@@ -7,9 +7,7 @@ def second_challenge
   }
 
   grocery_list =[]
-  groceries.each do |key, value|
-    grocery_list << key.values 
-  end
+  groceries.values 
 
   
 
